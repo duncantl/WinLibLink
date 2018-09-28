@@ -8,3 +8,12 @@ ranlib libmatt.a
 
 gcc -c -I. check.cc
 
+gcc -o check check.o  -L. -lmatt
+
+
+May need in libroutine.c
+#define LibExport __declspec(dllexport)
+
+LibExport int matt(int x) {...} 
+
+
