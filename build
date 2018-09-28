@@ -5,6 +5,8 @@ gcc -c libroutine.c
 ar libmatt.a libroutine.o
 ranlib libmatt.a
 
+file libmatt.a
+
 
 gcc -c -I. check.cc
 
