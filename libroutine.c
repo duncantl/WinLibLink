@@ -1,5 +1,8 @@
 
 
+#define LibExport __declspec(dllexport)
+
+// LibExport
 int
 matt(int x)
 {

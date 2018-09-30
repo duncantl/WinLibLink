@@ -2,7 +2,7 @@
 
 
 gcc -c libroutine.c
-ar libmatt.a libroutine.o
+ar cr libmatt.a libroutine.o
 ranlib libmatt.a
 
 file libmatt.a
