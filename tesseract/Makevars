@@ -1,0 +1,6 @@
+
+BINPREF=c:/msys64/mingw64/bin/
+CXX=c:/msys64/mingw64/bin/g++
+PKG_CXXFLAGS=-Ic:/msys64/mingw64/include -Wc++0x-compat
+#-std=C++11
+PKG_LIBS=-L/mingw64/lib -ltesseract
